@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Autara – Privacy Policy</title>
+  <style>
+    :root { --bg:#0b1020; --fg:#e6ebf5; --muted:#9aa3b2; --accent:#7c9cff; }
+    body { margin:0; font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; color:var(--fg); background:var(--bg); }
+    .wrap { max-width: 880px; padding: 24px 16px; margin: 0 auto; }
+    h1,h2,h3 { color: var(--fg); }
+    a { color: var(--accent); }
+    .card { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.12); border-radius: 12px; padding: 16px; }
+    .muted { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Autara Chrome Extension – Privacy Policy</h1>
+    <p class="muted">Effective date: 2025-01-01</p>
+    <div class="card">
+      <h2>Overview</h2>
+      <p>Autara is a wellness companion that provides breathing, eye breaks, walk prompts, a focus timer, and simple local insights. We designed Autara to work without sending personal data to our servers.</p>
+      <h2>Data we collect and where it’s stored</h2>
+      <ul>
+        <li>Preferences and settings (e.g., theme, intervals, focus options) are stored locally using <code>chrome.storage.local</code>.</li>
+        <li>Local insights (daily active minutes and per-domain minute totals by hostname only) are stored locally using <code>chrome.storage.local</code>.</li>
+        <li>We do not collect or transmit page content, browsing history, or personal identifiers.</li>
+        <li>No analytics, tracking pixels, or third‑party SDKs are used.</li>
+      </ul>
+      <h2>What we share</h2>
+      <ul>
+        <li>We do not sell, rent, or share user data.</li>
+        <li>No data leaves the user’s device, except when a user voluntarily opens our Google Feedback Form to submit comments directly to us.</li>
+      </ul>
+      <h2>Permissions we use and why</h2>
+      <ul>
+        <li><strong>storage</strong>: Save settings and local-only insights.</li>
+        <li><strong>alarms</strong>: Schedule break/eye reminders and a once-per-minute insights tick.</li>
+        <li><strong>notifications</strong>: Display reminder notifications.</li>
+        <li><strong>idle</strong>: Avoid counting inactive minutes and pause reminders when the user is away.</li>
+        <li><strong>sidePanel</strong>: Host the Autara side panel UI.</li>
+        <li><strong>tabs</strong>: Open/focus the panel or feedback form and target the active tab for overlay messages.</li>
+        <li><strong>offscreen</strong>: Play short audio cues for breathing guidance without a visible page.</li>
+        <li><strong>Host permissions (&lt;all_urls&gt;)</strong>: Render optional overlays on pages. We do not collect or transmit page content.</li>
+      </ul>
+      <h2>Remote code and network use</h2>
+      <p>No remote code is loaded. The extension ships fully packaged. Network access occurs only when the user opens our Google Feedback Form: <a href="https://forms.gle/YHyUweqVH7kq5Kks5" target="_blank" rel="noopener">https://forms.gle/YHyUweqVH7kq5Kks5</a></p>
+      <h2>Data retention and control</h2>
+      <p>All data is on-device. Users can remove it at any time by uninstalling the extension or clearing extension storage. We do not maintain server-side copies.</p>
+      <h2>Children’s privacy</h2>
+      <p>Autara is not directed to children under 13.</p>
+      <h2>Changes</h2>
+      <p>We may update this policy and will indicate the effective date above.</p>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:support@autara.app">support@autara.app</a></p>
+    </div>
+  </main>
+</body>
+</html>
